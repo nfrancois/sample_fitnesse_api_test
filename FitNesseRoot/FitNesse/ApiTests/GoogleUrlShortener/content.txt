@@ -1,0 +1,20 @@
+!include -c .FrontPage.EnvironnementSetup  
+
+!**> Storyboard
+
+  * On raccouri l'url du site de fitnesse
+  * 
+
+**!
+
+
+|Table:smartrics.rest.fitnesse.fixture.RestFixture|${API_URL}|
+|setHeaders|!-Content-Type: application/json-!|
+|setBody               |{{{
+{
+  "longUrl": "http://fitnesse.org/"
+}
+}}}|
+|POST|/v1/url|200||{{{
+jsonbody.id=="http://goo.gl/CVOB"
+}}}|
