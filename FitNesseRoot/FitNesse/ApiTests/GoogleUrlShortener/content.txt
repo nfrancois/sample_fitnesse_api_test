@@ -1,10 +1,7 @@
 !include -c .FrontPage.EnvironnementSetup  
 
 !**> Storyboard
-
-  * On raccouri l'url du site de fitnesse
-  * 
-
+  * On raccouri l'url du site de fitnesse 
 **!
 
 
@@ -18,3 +15,5 @@
 |POST|/v1/url|200||{{{
 jsonbody.id=="http://goo.gl/CVOB"
 }}}|
+|let|longUrl|js|response.jsonbody.id||
+|GET|%longUrl%|200|||
