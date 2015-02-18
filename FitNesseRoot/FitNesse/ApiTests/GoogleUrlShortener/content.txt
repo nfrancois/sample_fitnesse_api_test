@@ -5,10 +5,10 @@
 **!
 
 
-|Rest Fixture Config | apiClient |
+|Table: Rest Fixture Config | apiClient |
 | restfixture.default.headers |Content-Type: application/json|
 
-|Fit Rest Fixture|${API_URL}|apiClient |
+|Table: Rest Fixture|${API_URL}|apiClient |
 |setBody               |{{{
 {
   "longUrl": "http://fitnesse.org/"

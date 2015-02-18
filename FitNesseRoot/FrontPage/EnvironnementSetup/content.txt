@@ -1,6 +1,6 @@
-!define TEST_SYSTEM {fit}
+!define TEST_SYSTEM {slim}
 
-!define FITNESSE_HOME {/Users/nicolasfrancois/Documents/fitnesse_rest}}
+!define FITNESSE_HOME {/Users/nicolasfrancois/Documents/fitnesse_rest}
 !define API_URL {https://www.googleapis.com/urlshortener}
 
 !path ${FITNESSE_HOME}/plugins/dependencies/*
