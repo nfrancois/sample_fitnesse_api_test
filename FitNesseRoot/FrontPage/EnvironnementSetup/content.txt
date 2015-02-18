@@ -1,8 +1,12 @@
-!define TEST_SYSTEM {slim}
+!define TEST_SYSTEM {fit}
 
-!define FITNESSE_HOME {/Users/nicolasfrancois/Documents/fitnesse_rest}
+!define FITNESSE_HOME {/Users/nicolasfrancois/Documents/fitnesse_rest}}
 !define API_URL {https://www.googleapis.com/urlshortener}
 
 !path ${FITNESSE_HOME}/plugins/dependencies/*
 !path ${FITNESSE_HOME}/plugins/smartrics-RestFixture-3.1.jar
 !path ${FITNESSE_HOME}/plugins/slf4j-simple-1.6.6.jar
+
+
+| Import |
+| smartrics.rest.fitnesse.fixture |

@@ -5,8 +5,10 @@
 **!
 
 
-|Table:smartrics.rest.fitnesse.fixture.RestFixture|${API_URL}|
-|setHeaders|!-Content-Type: application/json-!|
+|Rest Fixture Config | apiClient |
+| restfixture.default.headers |Content-Type: application/json|
+
+|Fit Rest Fixture|${API_URL}|apiClient |
 |setBody               |{{{
 {
   "longUrl": "http://fitnesse.org/"
