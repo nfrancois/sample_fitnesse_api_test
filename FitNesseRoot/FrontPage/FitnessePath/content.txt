@@ -1,1 +1,2 @@
-!define FITNESSE_HOME {/Users/sofiane/tools/fitnesse}
+# Here define your own fitnesse home (ie directory where fitnesse is running)
+!define FITNESSE_HOME {/Users/nicolasfrancois/Document/fitnesse}
