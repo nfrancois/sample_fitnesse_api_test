@@ -1,1 +1,1 @@
-!define FITNESSE_HOME {/Users/nicolasfrancois/Documents/fitnesse_rest}
+!define FITNESSE_HOME {/Users/sofiane/tools/fitnesse}

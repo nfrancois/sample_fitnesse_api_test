@@ -1,0 +1,10 @@
+!include -c .FrontPage.EnvironnementSetup  
+
+!**> Storyboard
+  * On test l'appel de http GET
+**!
+
+
+|Table:smartrics.rest.fitnesse.fixture.RestFixture|${API_URL}|
+|setHeaders|!-Content-Type: application/json-!|
+|GET|${API_URL}|404|||

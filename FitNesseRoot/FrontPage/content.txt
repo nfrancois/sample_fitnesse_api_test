@@ -4,4 +4,4 @@
 >EnvironnementSetup
 *!
 
-[[Google Url Shortener][FitNesse.ApiTests.GoogleUrlShortener]]
+>ApiTestSuite
